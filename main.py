@@ -11,7 +11,7 @@ def main():
     playlist.next()
     playlist.pause()
     playlist.pause()
-    playlist.add_song(["Rose Tatto","All  fall down", "Morning"])
+    playlist.add_song("Rose Tatto","All  fall down", "Morning")
     print (songs)
     #playlist.remove_song("All  fall down")
     #print (songs)

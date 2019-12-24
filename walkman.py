@@ -36,10 +36,10 @@ class Walkman():
 
     def remove_song(self, song):
         try:
-            return self.songs.remove(song.lower)
+            return self.songs.remove(song.lower())
         except ValueError:
             print("song is not in the list")
 
     def convert_lower(self):
         #self.lower_song=map(lambda x:x.lower(),self.songs))
-        return lower_songs= [x.lower() for x in self.songs]
+        return [x.lower() for x in self.songs]
