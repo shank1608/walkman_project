@@ -31,12 +31,12 @@ class Walkman():
             print("Walkman is already paused")
 
 
-    def add_song(self,*songs):
-        return self.songs.extend(*songs)
+    def add_song(self,*addedsongs):
+         self.songs.extend(*addedsongs)
 
     def remove_song(self, song):
         try:
-            return self.songs.remove(song.lower())
+             self.songs.remove(song.lower())
         except ValueError:
             print("song is not in the list")
 
