@@ -13,10 +13,10 @@ def main():
     playlist.pause()
     playlist.add_song("Rose Tattoo", "All  fall down", "Morning")
     print(playlist.songs)
-    #playlist.remove_song("All  fall down")
-    #print (songs)
-    #playlist.remove_song("All  fall down")
-    #print (songs)
+    playlist.remove_song("All  fall down")
+    print (playlist.songs)
+    playlist.remove_song("All  fall down")
+    print (playlist.songs)
 
 
 if __name__  == '__main__':
