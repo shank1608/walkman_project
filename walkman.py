@@ -37,7 +37,7 @@ class Walkman():
         for song in new_songs:
             self.songs.append(song.lower())
 
-    def remove_song(self, songs):
+    def remove_song(self, *songs):
         try:
             for song in songs:
                 self.songs.remove(song.lower())
