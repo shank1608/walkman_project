@@ -1,8 +1,9 @@
 from walkman import Walkman
+from song import Song
 
 
 def main():
-    songs = ["Mama", "its my life", "counting stars"]
+    songs = [Song("Mama"), Song("Its My Life"), Song("Counting Stars")]
     playlist = Walkman(songs)
     playlist.play("Mama")
     playlist.next()
